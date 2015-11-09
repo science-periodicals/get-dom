@@ -1,6 +1,6 @@
 {
-  "name": "crossref",
-  "version": "0.0.1",
+  "name": "get-dom",
+  "version": "1.0.0",
   "description": "Return a Document or DOMImplementation instance in both Node and the browser ",
   "main": "index.js",
   "browser": "browser.js",
@@ -13,7 +13,9 @@
   },
   "keywords": [
     "Document",
-    "DOMImplementation"
+    "DOMImplementation",
+    "bundler",
+    "browserify"
   ],
   "author": "Robin Berjon <robin@standardanalytics.io>",
   "license": "Apache-2.0",
