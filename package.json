@@ -3,6 +3,7 @@
   "version": "0.0.1",
   "description": "Return a Document or DOMImplementation instance in both Node and the browser ",
   "main": "index.js",
+  "browser": "browser.js",
   "scripts": {
     "test": "mocha"
   },
@@ -26,8 +27,5 @@
   },
   "dependencies": {
     "jsdom": "7.0.2"
-  },
-  "browser": {
-    "./index.js": "./browser.js"
   }
 }
