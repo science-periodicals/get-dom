@@ -1,6 +1,6 @@
 {
   "name": "get-dom",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Return a Document or DOMImplementation instance in both Node and the browser ",
   "main": "index.js",
   "browser": "browser.js",
