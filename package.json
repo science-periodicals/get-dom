@@ -1,0 +1,33 @@
+{
+  "name": "crossref",
+  "version": "0.0.1",
+  "description": "Return a Document or DOMImplementation instance in both Node and the browser ",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/scienceai/get-dom.git"
+  },
+  "keywords": [
+    "Document",
+    "DOMImplementation"
+  ],
+  "author": "Robin Berjon <robin@standardanalytics.io>",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/scienceai/get-dom/issues"
+  },
+  "homepage": "https://github.com/scienceai/get-dom",
+  "devDependencies": {
+    "eslint": "1.9.0",
+    "mocha": "2.3.3"
+  },
+  "dependencies": {
+    "jsdom": "7.0.2"
+  },
+  "browser": {
+    "./index.js": "./browser.js"
+  }
+}
