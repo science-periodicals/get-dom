@@ -24,10 +24,10 @@
   },
   "homepage": "https://github.com/scienceai/get-dom",
   "devDependencies": {
-    "eslint": "1.9.0",
-    "mocha": "2.3.3"
+    "eslint": "1.10.3",
+    "mocha": "2.3.4"
   },
   "dependencies": {
-    "jsdom": "7.0.2"
+    "jsdom": "^7"
   }
 }
