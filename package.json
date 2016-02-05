@@ -25,9 +25,9 @@
   "homepage": "https://github.com/scienceai/get-dom",
   "devDependencies": {
     "eslint": "1.10.3",
-    "mocha": "2.3.4"
+    "mocha": "2.4.5"
   },
   "dependencies": {
-    "jsdom": "^7"
+    "jsdom": "^8"
   }
 }
