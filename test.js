@@ -9,6 +9,12 @@ describe('Getting Document or DOMImplementation', function () {
     assert('documentElement' in doc, 'duck types with documentElement');
     assert('implementation' in doc, 'duck types with implementation');
   });
+  it('should produce a document that can create elements', () => {
+    var doc = dom.document()
+      , el = doc.createElement('cite')
+    ;
+    assert.equal(el.localName, 'cite', 'it creates an element');
+  });
   it('should get a DOMImplementation', () => {
     var di = dom.implementation();
     assert(di, 'there is a DOMImplementation');
