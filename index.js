@@ -1,8 +1,8 @@
 
-var core = require('jsdom/lib/jsdom/living');
+var jsdom = require('jsdom');
 
 exports.document = function () {
-  return new core.Document({ parsingMode: 'html' });
+  return jsdom.jsdom();
 };
 
 exports.implementation = function () {
