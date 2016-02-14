@@ -2,7 +2,7 @@
 # get-dom
 
 This is a very simple module. Use it whenever you need to have access to either a `Document` or a
-`DOMImplementation` instance but you don't much care which one you get so long as you get one.
+`DOMImplementation` instance in Node or the browser transparently.
 
 When running in Node, this will use `jsdom` to provide you with the right objects. While `jsdom`
 works in the browser, it's a pretty big dependency to have and you already have a DOM there. So
