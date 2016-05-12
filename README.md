@@ -13,6 +13,8 @@ current `document` and its `document.implementation`. (If you want a new instanc
 **NOTE**: This only works with bundlers that respect the `browser` field in `package.json`
 (Browserify does, I guess the other big ones do too).
 
+The major version number for this module now tracks that of `jsdom`.
+
 ## Installation
 
     npm install get-dom
