@@ -1,4 +1,5 @@
 
+/* eslint "no-var": "off" */
 var jsdom = require('jsdom');
 
 exports.document = function () {
