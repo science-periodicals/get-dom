@@ -1,6 +1,8 @@
 
 # get-dom
 
+[![CircleCI](https://circleci.com/gh/scienceai/get-dom.svg?style=svg)](https://circleci.com/gh/scienceai/get-dom)
+
 This is a very simple module. Use it whenever you need to have access to either a `Document` or a
 `DOMImplementation` instance in Node or the browser transparently.
 
