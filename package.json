@@ -1,11 +1,12 @@
 {
   "name": "get-dom",
-  "version": "9.0.0",
+  "version": "13.0.0",
   "description": "Return a Document or DOMImplementation instance in both Node and the browser ",
   "main": "index.js",
   "browser": "browser.js",
   "scripts": {
-    "test": "mocha"
+    "test": "mocha",
+    "postversion": "git push && git push --tags"
   },
   "repository": {
     "type": "git",
@@ -17,17 +18,18 @@
     "bundler",
     "browserify"
   ],
-  "author": "Robin Berjon <robin@standardanalytics.io>",
+  "author": "Robin Berjon",
+  "contributor": "Sebastien Ballesteros",
   "license": "Apache-2.0",
   "bugs": {
     "url": "https://github.com/scienceai/get-dom/issues"
   },
   "homepage": "https://github.com/scienceai/get-dom",
   "devDependencies": {
-    "eslint-config-scienceai": "1.1.2",
-    "mocha": "2.4.5"
+    "eslint-config-scienceai": "^4.4.0",
+    "mocha": "^6.0.1"
   },
   "dependencies": {
-    "jsdom": "^9"
+    "jsdom": "^13.2.0"
   }
 }

@@ -1,8 +1,7 @@
-
-exports.document = function () {
+exports.document = function() {
   return document;
 };
 
-exports.implementation = function () {
+exports.implementation = function() {
   return document.implementation;
 };

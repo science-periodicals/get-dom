@@ -1,11 +1,11 @@
-
-/* eslint "no-var": "off" */
 var jsdom = require('jsdom');
+var JSDOM = jsdom.JSDOM;
 
-exports.document = function () {
-  return jsdom.jsdom();
+exports.document = function() {
+  const window = new JSDOM('').window;
+  return window.document;
 };
 
-exports.implementation = function () {
+exports.implementation = function() {
   return exports.document().implementation;
 };
