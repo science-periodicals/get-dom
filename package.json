@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/scienceai/get-dom.git"
+    "url": "https://github.com/science-periodicals/get-dom.git"
   },
   "keywords": [
     "Document",
@@ -22,11 +22,11 @@
   "contributor": "Sebastien Ballesteros",
   "license": "Apache-2.0",
   "bugs": {
-    "url": "https://github.com/scienceai/get-dom/issues"
+    "url": "https://github.com/science-periodicals/get-dom/issues"
   },
-  "homepage": "https://github.com/scienceai/get-dom",
+  "homepage": "https://github.com/science-periodicals/get-dom",
   "devDependencies": {
-    "eslint-config-scienceai": "^4.4.0",
+    "@scipe/eslint-config": "^1.0.0",
     "mocha": "^6.0.1"
   },
   "dependencies": {

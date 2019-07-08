@@ -1,7 +1,6 @@
+# @scipe/get-dom
 
-# get-dom
-
-[![CircleCI](https://circleci.com/gh/scienceai/get-dom.svg?style=svg)](https://circleci.com/gh/scienceai/get-dom)
+[![styled with prettier](https://img.shields.io/badge/styled_with-prettier-ff69b4.svg)](https://github.com/prettier/prettier)
 
 This is a very simple module. Use it whenever you need to have access to either a `Document` or a
 `DOMImplementation` instance in Node or the browser transparently.
@@ -16,6 +15,10 @@ current `document` and its `document.implementation`. (If you want a new instanc
 (Browserify does, I guess the other big ones do too).
 
 The major version number for this module now tracks that of `jsdom`.
+
+Note: this module is auto published to npm on CircleCI. Only run `npm version
+patch|minor|major` and let CI do the rest.
+
 
 ## Installation
 
