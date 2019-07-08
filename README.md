@@ -1,5 +1,7 @@
 # @scipe/get-dom
 
+[![CircleCI](https://circleci.com/gh/science-periodicals/get-dom.svg?style=svg)](https://circleci.com/gh/science-periodicals/get-dom)
+
 [![styled with prettier](https://img.shields.io/badge/styled_with-prettier-ff69b4.svg)](https://github.com/prettier/prettier)
 
 This is a very simple module. Use it whenever you need to have access to either a `Document` or a
