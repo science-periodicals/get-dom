@@ -24,6 +24,12 @@
   "bugs": {
     "url": "https://github.com/science-periodicals/get-dom/issues"
   },
+  "prettier": {
+    "singleQuote": true
+  },
+  "eslintConfig": {
+    "extends": "@scipe"
+  },
   "homepage": "https://github.com/science-periodicals/get-dom",
   "devDependencies": {
     "@scipe/eslint-config": "^1.0.0",
