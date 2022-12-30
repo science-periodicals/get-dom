@@ -33,7 +33,7 @@
   "homepage": "https://github.com/science-periodicals/get-dom",
   "devDependencies": {
     "@scipe/eslint-config": "^1.0.0",
-    "mocha": "^6.0.1"
+    "mocha": "^10.2.0"
   },
   "dependencies": {
     "jsdom": "^13.2.0"
